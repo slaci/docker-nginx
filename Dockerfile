@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1
 
 COPY ez_params.d /etc/nginx
 COPY vhost.conf /etc/nginx/conf.d/default.conf
